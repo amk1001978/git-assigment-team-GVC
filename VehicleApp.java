@@ -55,7 +55,10 @@ public static void main(String[] args) {
         aeroplane.details();
         boat.details();
     System.out.println("This code is writen by Sabir");
+    //Names of the collaborators added
+    System.out.println("Collaborated with; Shahriar Badhon, Mahbub Mashuk, Ahnaf Rahul");
     }
 
 }
+
 

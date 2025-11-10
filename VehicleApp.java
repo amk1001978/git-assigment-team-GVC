@@ -1,4 +1,4 @@
-class Vehicle {
+class Vehicle {  //This program shows how to use constructor overloading in Java.
 String type, colour;
 int speed, number_tyres;
 boolean canFly, canSwim;
@@ -13,7 +13,7 @@ Vehicle(String t, String c, int s, int tyres) {
     canSwim = false;
     }
 
-
+// By default, the vehicle cannot fly
 Vehicle(String t, String c, int s, int tyres, boolean fly) {
     type = t;
     colour = c;
@@ -56,4 +56,5 @@ public static void main(String[] args) {
         aeroplane.details();
         boat.details();
     }
+
 }

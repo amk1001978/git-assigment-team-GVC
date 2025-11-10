@@ -54,7 +54,8 @@ public static void main(String[] args) {
         car.details();
         aeroplane.details();
         boat.details();
-    system.out.println("This code is writen by Sabir");
+    System.out.println("This code is writen by Sabir");
     }
 
 }
+

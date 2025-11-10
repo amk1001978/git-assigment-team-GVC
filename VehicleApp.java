@@ -31,7 +31,7 @@ Vehicle(String t, String c, int s, int tyres, boolean fly, boolean swim) {
     canFly = fly;
     canSwim = swim;
     }
-
+// Method to print out vehicle details
 void details() {
     System.out.println("Type: " + type);
     System.out.println("Colour: " + colour);
@@ -60,5 +60,6 @@ public static void main(String[] args) {
     }
 
 }
+
 
 
